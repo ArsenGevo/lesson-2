@@ -1,0 +1,107 @@
+@import url(reset.css); 
+* {
+  color:gray;
+}
+.main-tittle {
+  color: aqua;
+}
+
+/*p в середені div з класом .text не успадкував наступну властивість, спарцював * селектор*/
+.text {
+  color: yellow;
+}
+
+/*p в середені div з класом .poem не успадкував наступну властивість, спарцював * селектор, при уточненні -тег в класі- спрацювало*/
+.poem {
+  color: black;
+}
+.poem p {
+  color: olive;
+}
+
+h1 {
+  color: blue;
+}
+.title__text {
+  color: blueviolet;
+}
+[class*="__text"]{
+  color: tomato;
+}
+
+#slova {
+  color: aquamarine;
+}
+div.poem {
+  color: darkblue;
+}
+.tittle.title__text {
+  color: coral; 
+} 
+.tittle__container+p {
+  color: black ;
+} 
+.text__block>p{
+  color: blue;
+}
+.poem__tittle~p {
+  color: brown;
+}
+
+/*.poem-lubit не спрацював бо є селектор всі div з класом poem*/
+.poem-lubit,
+.razom-paragraph {
+  color: chartreuse;
+}
+
+.poem .poem__some-tittle {
+  color: darkgreen;
+}
+/*h3 з класом poem__some-tittle не перезаписалися бо селектор класу має вищий приорітет*/
+.poem h3 {
+  color: chocolate;
+}
+
+.text__container p {
+  color: deeppink;
+}
+.important-tex {
+  color: magenta;
+}
+
+/*селектор links не спрацював бо має нижчий приорітет*/
+footer .links {
+  color: black;
+}
+.links {
+  color: brown;
+}
+
+
+
+
+.nav-list {}
+
+
+
+
+.introduice__text {}
+
+
+
+
+
+
+
+.text__some-block {}
+
+.text__paragraph {}
+
+
+
+.slova-tittle {}
+
+
+
+
+
