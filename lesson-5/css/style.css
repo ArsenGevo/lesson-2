@@ -1,0 +1,132 @@
+/*------------------- Підключення шрифтів через сайт gf 1)Roboto 2)Montserrat------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+/*------------------- Підключення шрифтів через плагін gf -------------------------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Radio+Canada:regular,italic&display=swap");
+/*------------------- Підключення шрифтів через плагін gf для верстки макету ------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+/*------------------- Підключення шрифтів через завантаження файлів шрифту --------------------------- */
+@import url(fonts.css);
+/*------------------- Скидання стилів ------------------------- */
+@import url(reset.css);
+
+/*-------------------------------------------- */
+body {
+  font-family: "Roboto" sans-serif;
+  font-size: 18px;
+}
+
+.trams h1 {
+  font-family: "lato", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  word-spacing: 10px;
+}
+
+.trams h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: #FC0 1px 0 10px;
+  letter-spacing: 5px;
+}
+
+.trams h3 {
+  font-family: "Radio Canada", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.navigation a {
+  color: blue;
+  white-space: 5px;
+  line-height: 1.5;
+}
+
+.introduice {
+  font-family: "lato", sans-serif;
+}
+
+.history-horse {
+  font-family: "Old Standard TT", serif;
+}
+
+.history-horse span {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.history-elecrtic {
+  font-family: "NanumGothic", serif;
+}
+
+h2+p {
+  text-indent: 20px;
+}
+
+.russ {
+  text-transform: lowercase;
+}
+
+.history-elecrtic span {
+  font-weight: 900;
+}
+
+.war-period {
+  font-family: "Radio Canada", sans-serif;
+}
+
+.consulting {
+  font-family: "Inter";
+  color: #7D7D7D;
+  font-size: 18px;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.consulting__tittle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.consulting-why__tittle {
+  color: #37393F;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+
+}
+
+.consulting-why__sub-tittle {
+  color: #6B77E5;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.consulting-pro-inf {}
+
+.consulting-pro-inf__tittle {
+  color: #37393F;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 51px;
+
+}
+
+.consulting-pro-inf__list {
+  font-weight: 500;
+}
+
+.links {
+  text-decoration: overline;
+}
+
+.links a {
+  color: blue;
+}
