@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url(reset.css);
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+
+.why-us {
+  max-width: 692px;
+  margin: 50px auto;
+  overflow: hidden;
+  color: #7D7D7D;
+
+}
+
+.tittle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.why-us__tittle-img img {
+  max-width: 692px;
+}
+
+.why-us__tittle-img {
+  margin-bottom: 37px;
+}
+
+.why-us__tittle {
+  color: #37393F;
+  font-size: 30px;
+  line-height: 1.27;
+  margin-bottom: 3px;
+}
+
+.why-us__text {
+  line-height: 1.44;
+  margin-bottom: 42px;
+}
+
+.why-us__sub-title {
+  color: #6B77E5;
+  font-size: 20px;
+  line-height: 1.27;
+  margin-bottom: 12px;
+}
+
+.last-text {
+  margin-bottom: 40px;
+}
+
+.why-us__container {
+  font-size: 0px;
+}
+
+.why-us__list-image {
+  margin-right: 29px;
+  max-width: 331px;
+}
+
+.why-us-list-container {
+  display: inline-block;
+  font-size: 18px;
+  vertical-align: top;
+  max-width: 332px;
+}
+
+.why-us__list-tittle {
+  color: #37393F;
+  font-size: 25px;
+  line-height: 1.28;
+  margin-bottom: 15px;
+}
+
+.why-us__list-sub-tittle {
+  color: #40DDB6;
+  font-size: 20px;
+  line-height: 1.27;
+  margin-bottom: 24px;
+}
+
+.why-us__list {}
+
+.list {
+  padding-left: 35px;
+}
+
+.list-item {
+  margin-bottom: 30px;
+}
+
+.what {
+  max-width: 1169px;
+  margin: 0 auto;
+  color: #474747;
+  font-size: 0px;
+
+}
+
+.what-text-container {
+  display: inline-block;
+  max-width: 563px;
+  padding-top: 21px;
+  margin-right: 38px;
+
+}
+
+.what__sub-tittle {
+  color: #D06B00;
+  font-size: 28px;
+  margin-bottom: 13px;
+}
+
+.what__tittle {
+  color: #0E333D;
+  font-size: 59px;
+  font-family: DM Serif Text, serif;
+  line-height: 1.46;
+  margin-bottom: 25px;
+}
+
+.what__text {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.what__image1 {
+  margin-right: 22px;
+}
+
+.what__image2 {}
