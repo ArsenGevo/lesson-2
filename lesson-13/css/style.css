@@ -6,7 +6,7 @@
 }
 
 [class*="__container"] {
-  max-width: 1250px;
+  max-width: 1050px;
   margin: 0 auto;
   padding: 50px 15px 50px 15px;
 }
@@ -48,11 +48,7 @@
 }
 
 .block__item--scale:hover {
-  transform: scale(120%, 120%);
-}
-
-.block__item--scale-mirror:hover {
-  transform: scale(-90%, 90%);
+  transform: scale(1.2);
 }
 
 .block__item--rotate:hover {
